@@ -7,7 +7,9 @@
       "romtype": "unofficial",
       "size": 1816619781,
       "url": "https://github.com/daizeuz-dred/Test-Builds/releases/download/infi-3.9-test-build/Project_Infinity-X-3.9-spaced-05.04.2026-GAPPS-UNOFFICIAL.zip",
-      "version": "3.9-1"
+      "version": "3.9-1",
+      "device": "spaced",
+      "changelog_url": "https://raw.githubusercontent.com/daizeuz-dred/daizeuz-dred.github.io/main/README.md"
     }
   ]
 }
