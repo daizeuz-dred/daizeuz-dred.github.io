@@ -1,13 +1,13 @@
 {
   "response": [
     {
-      "datetime": 1775411074,
+      "datetime": 1775413863,
       "filename": "Project_Infinity-X-3.9-spaced-05.04.2026-GAPPS-UNOFFICIAL.zip",
-      "id": "0b0794f7837d8289465c32f5c46a2e6972ba774a3ab244cdc0b5e41df7cb13f7",
+      "id": "a5f0e9450e4ba79a19ec4f78cb246e0b38b7c64a23feb2274097b5782abd312a",
       "romtype": "unofficial",
-      "size": 1816625752,
-      "url": "https://github.com/daizeuz-dred/daizeuz-dred.github.io/releases/download/3.9-1/Project_Infinity-X-3.9-spaced-05.04.2026-GAPPS-UNOFFICIAL.zip",
-      "version": "3.9"
+      "size": 1816619781,
+      "url": "https://github.com/daizeuz-dred/Test-Builds/releases/download/infi-3.9-test-build/Project_Infinity-X-3.9-spaced-05.04.2026-GAPPS-UNOFFICIAL.zip",
+      "version": "3.9-1"
     }
   ]
 }
