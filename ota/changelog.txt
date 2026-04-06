@@ -1,6 +1,9 @@
 Device Maintainer: DΞΞZNUTZ
+Device: Realme 8i / Narzo 50 
+Codename: spaced
+Telegram Channel: https://t.me/DEEZProjects
 
-Date - 04-06-2026
+Date - 03-04-2026
 =================
 - Add statusbar/lockscreen dynamic bar implementation (https://t.me/ProjectInfinityX/1831) (author: rmp22)
 - Add App drawer customizations and tunings (https://t.me/ProjectInfinityX/1832) (author: shutter-cat, pbzinwindows, ChrisCatto)
