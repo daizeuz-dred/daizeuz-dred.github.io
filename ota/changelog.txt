@@ -1,6 +1,5 @@
 Device Maintainer: DΞΞZNUTZ
 Device: Realme 8i / Narzo 50 
-Codename: spaced
 Telegram Channel: https://t.me/DEEZProjects
 
 Date - 03-04-2026
@@ -62,3 +61,8 @@ Changelog for stable version 3.8 (QPR2) :
 - Fix launcher crash on early boot
 - Fix a reported "account suspend" issue in a game named "Free Fire" when higher fps game spoofing enabled, and also fix fps spoof in the particular game
 =================
+
+Date - 04-06-2026
+=================
+- Added OTA updates support
+- Screen Recording framerate set to 90fps
