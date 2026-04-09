@@ -11,7 +11,7 @@ Telephony & Connectivity :
 
 Camera & Imaging :
 - ISP Geometry Optimization: Aligned ISP tiles and AE/AWB windows to satisfy specific MT6781 hardware constraints, resolving "Logical Tile" errors.
-- LTM Height Fix: Corrected Local Tone Mapping (LTM) parameters to ensure proper viewfinder rendering and color accuracy across third-party apps (WhatsApp, Snapchat, etc.).
+- LTM Height Fix: Corrected Local Tone Mapping (LTM) parameters to ensure proper viewfinder rendering and color accuracy across third-party apps.
 
 System & Stability : 
 - SEPolicy: Updated security policies to allow the Camera HAL and IMS stack to operate correctly under enforced SELinux on Android 16.
