@@ -1,1 +1,37 @@
-dgadg
+Device Maintainer: DΞΞZNUTZ
+Device: Realme 8i / Narzo 50 
+Telegram Channel: https://t.me/DEEZProjects
+
+Date - 09-06-2026
+=============================
+Telephony & Connectivity : 
+
+- Fixed IMS Stability: Resolved a critical framework crash (NoSuchMethodError) that prevented the MediaTek IMS service from starting.
+- RIL Improvements: Enhanced Radio Interface Layer communication stability to prevent intermittent signal drops.
+
+Camera & Imaging :
+- ISP Geometry Optimization: Aligned ISP tiles and AE/AWB windows to satisfy specific MT6781 hardware constraints, resolving "Logical Tile" errors.
+- LTM Height Fix: Corrected Local Tone Mapping (LTM) parameters to ensure proper viewfinder rendering and color accuracy across third-party apps.
+
+System & Stability : 
+- SEPolicy: Updated security policies to allow the Camera HAL and IMS stack to operate correctly under enforced SELinux on Android 16.
+- General Stability: Improved synchronization between AOSP framework and MediaTek vendor blobs.
+
+
+Date - 04-07-2026
+=============================
+PERFORMANCE:
+- GPU Boost Integration: Successfully patched MediaTek GED (GPU Enhanced Driver) permissions, allowing the system to trigger gpu_boost_level 100 during heavy recording sessions.
+
+KERNEL & UNDER-THE-HOOD:
+- Hyperion Kernel: Integrated latest frequency scaling optimizations for the MT6781 (Helio G96) platform.
+- SEPolicy Fixes: Authored custom vendor rules to resolve permission denials for sysfs_ged, enabling seamless communication between the PowerHAL and the GPU.
+- Thermal Management: Updated thermal profiles to ensure sustained performance without aggressive throttling during high-load scenarios.
+
+SYSTEM & STABILITY:
+- Resolved an issue where the display compositor would lag during high-motion UI transitions (Recents/Scrolling).
+- Cleaned up unused vendor overlays to improve memory management.
+
+Date - 04-06-2026
+=============================
+- Added OTA updates support
