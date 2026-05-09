@@ -32,6 +32,44 @@ SYSTEM & STABILITY:
 - Resolved an issue where the display compositor would lag during high-motion UI transitions (Recents/Scrolling).
 - Cleaned up unused vendor overlays to improve memory management.
 
+
 Date - 04-06-2026
 =============================
 - Added OTA updates support
+
+
+Date - 05-09-2026
+============================
+INFINITY X 3.10 QPR2 - UPDATE!
+
+DISPLAY & UI:
+- Refresh Rate: Set default and peak refresh rate to 120Hz system-wide and cleared refresh rate blacklists.
+- Screen Recorder Pro: Added support for 90 FPS and 120 FPS high-fidelity captures.
+- SurfaceFlinger: Fine-tuned idle/touch timers, enabled Client Composition Cache, and moved to 4 buffers with Motorola phase offsets.
+- Flicker Fix: Applied fix in device.mk using debug.sf.disable_hwc=1.
+- Lag Fix: Applied fix in device.mk using debug.sf.layered_blur_res_divisor=3.
+- Recents: Implemented Squircle Recents in LauncherOverlay with task_corner_radius="32dp".
+- Visuals: Added rounded corner support and optimized status bar padding for a more refined look.
+
+SYSTEM & PERFORMANCE:
+- Resource Optimization: Reworked PowerHint with policy-based nodes and tuned schedutil for responsive frequency scaling.
+- Java Optimizations: Enabled SYSTEM_OPTIMIZE_JAVA and SYSTEMUI_OPTIMIZE_JAVA for faster app launches.
+- Uclamp Tuning: Set uclamp.min to 350 to maintain higher CPU frequencies during touch interactions.
+- Memory Management: Boosted zRAM to 70% of total RAM with 70 swappiness and updated LMK for improved multitasking.
+- GPU Boost: Patched MediaTek GED permissions to allow gpu_boost_level 100 during high-load tasks.
+- Battery Fix: Enabled battery percentage setting availability in FrameworksRes.
+
+SECURITY & STABILITY:
+- Certification: ROM is fully signed and passes all 3 Play Integrity checks (Device Certified).
+- SEPolicy: Labeled sysfs_wakeup nodes and defined contexts; granted system_suspend read permissions.
+- Kernel Fix: Resolved sched param issues by adding #include <sched.h> to relevant source files.
+- Security: Disabled Factory Reset Protection (FRP) and authored custom vendor rules for sysfs_ged.
+- Thermal: Adjusted thresholds to prevent aggressive throttling during high-performance encoding.
+
+CONNECTIVITY & AUDIO:
+- NFC: Upgraded to the modern AIDL NXP NFC HAL stack.
+- Audio: Integrated Dolby Sony audio and stripped unused codecs/PCM dumping for a cleaner stream.
+
+BUILD SYSTEM:
+- Standardization: Converted rootdir to Blueprint and renamed Lineage overlays.
+- Bug Fixes: Resolved duplicate 120Hz resource entries in FrameworksResOverlay and fixed permission errors for oplususerserve1.
