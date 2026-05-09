@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "filename": "Project_Infinity-X-3.9-spaced-06.04.2026-GAPPS-UNOFFICIAL.zip",
-      "download": "https://github.com/daizeuz-dred/OTA-Updates/releases/download/v3.9/Project_Infinity-X-3.9-spaced-09.04.2026-GAPPS-UNOFFICIAL.zip",
-      "timestamp": 1775760267,
+      "filename": "Project_Infinity-X-3.10-spaced-09.05.2026-GAPPS-UNOFFICIAL.zip",
+      "download": "https://github.com/daizeuz-dred/Infinity-X-3.10-QPR2-for-spaced/releases/download/3.10/Project_Infinity-X-3.10-spaced-09.05.2026-GAPPS-UNOFFICIAL.zip",
+      "timestamp": 1775761378,
       "md5": "d6edeade4a08dd0415e2d64065133201",
       "size": 1816800589,
-      "version": "3.9"
+      "version": "3.10"
     }
   ]
 }
