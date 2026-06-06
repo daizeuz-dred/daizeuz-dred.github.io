@@ -1,1 +1,12 @@
-asdsadas
+{
+  "response": [
+    {
+      "filename": "Lunaris-AOSP-spaced-Community-3.11-GMS-2026060615.zip",
+      "download": "https://github.com/daizeuz-dred/YOUR_RELEASE_REPO/releases/download/YOUR_TAG/Lunaris-AOSP-spaced-Community-3.11-GMS-2026060615.zip",
+      "timestamp": 1780758660,
+      "md5": "79b36d05bc157dfcbfe37b5c337d6f16",
+      "size": 2583989388,
+      "version": "3.11"
+    }
+  ]
+}
