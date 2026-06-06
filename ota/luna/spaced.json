@@ -2,22 +2,27 @@
   "response": [
     {
       "maintainer": "DΞΞZNUTZ",
-      "timestamp": 1780769391,
-      "datetime": 1780769391,
+      "oem": "Realme",
+      "device": "spaced",
       "filename": "Lunaris-AOSP-spaced-Community-3.11-GMS-2026060618.zip",
-      "md5": "7950a692bdbe7081ed93c9a97ebcd3da",
-      "id": "7950a692bdbe7081ed93c9a97ebcd3da",
-      "size": 2583885876,
       "download": "https://downloads.sourceforge.net/project/lunaris-aosp-3-11-qpr2/Lunaris-AOSP-spaced-Community-3.11-GMS-2026060618.zip",
-      "url": "https://downloads.sourceforge.net/project/lunaris-aosp-3-11-qpr2/Lunaris-AOSP-spaced-Community-3.11-GMS-2026060618.zip",
-      "romtype": "Community",
-      "buildtype": "Community",
+      "timestamp": 1780769291,
+      "md5": "7950a692bdbe7081ed93c9a97ebcd3da",
+      "sha256": "",
+      "size": 2583885876,
       "version": "3.11",
-      "forum": "",
-      "telegram": "https://t.me/daizeuz_dred",
-      "gapps": "Full",
+      "buildtype": "Community",
+      "forum": "https://t.me/DEEZProjects",
+      "gapps": "yes",
       "firmware": "",
-      "changelog": ""
+      "modem": "",
+      "bootloader": "",
+      "recovery": "",
+      "paypal": "paypal: https://github.com/sponsors/daizeuz-dred",
+      "telegram": "https://t.me/daizeuz_dred",
+      "dt": "",
+      "common-dt": "",
+      "kernel": ""
     }
   ]
 }
