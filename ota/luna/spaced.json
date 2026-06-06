@@ -11,6 +11,7 @@
       "download": "https://downloads.sourceforge.net/project/lunaris-aosp-3-11-qpr2/Lunaris-AOSP-spaced-Community-3.11-GMS-2026060618.zip",
       "url": "https://downloads.sourceforge.net/project/lunaris-aosp-3-11-qpr2/Lunaris-AOSP-spaced-Community-3.11-GMS-2026060618.zip",
       "romtype": "Community",
+      "buildtype": "Community",
       "version": "3.11"
     }
   ]
