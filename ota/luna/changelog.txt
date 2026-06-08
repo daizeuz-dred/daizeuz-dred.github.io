@@ -1,1 +1,9 @@
-Testing OTA
+Lunaris AOSP v3.11 | Unofficial | Signed Build | spaced
+
+06-08-26
+- Final Release Build for spaced.
+- Added OTA updates for future builds.
+
+Note: 
+- Flickering? You can fix it by yourself by flashing this module - https://t.me/DEEZProjects/23
+(I already tried everything I can trying to fix it but FAAAHHHH)
