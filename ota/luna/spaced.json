@@ -4,12 +4,12 @@
       "maintainer": "DΞΞZNUTZ",
       "oem": "Realme",
       "device": "spaced",
-      "filename": "Lunaris-AOSP-spaced-Community-3.11-GMS-2026060805.zip",
-      "download": "https://downloads.sourceforge.net/project/lunaris-aosp-3-11-qpr2/Lunaris-AOSP-spaced-Community-3.11-GMS-2026060805.zip",
-      "timestamp": 1780896636,
-      "md5": "f718958e885f789d335d543d9f3f4516",
-      "sha256": "eda624ccd9305915ac4b5581325086e4d034efbdb997abf2ad99f7a330e59074",
-      "size": 2583710571,
+      "filename": "Lunaris-AOSP-spaced-Community-3.11-GMS-2026061402.zip",
+      "download": "https://drive.usercontent.google.com/download?id=1RPe6dUn0vRdKJ40WNWw2o87X9MrAsr-l&export=download&authuser=0&confirm=t&uuid=27b1d355-bae3-4a33-9dfa-fd099240e508&at=AAINaILAtbIy6i-0aPcyOeWXZ0qk%3A1781407406884",
+      "timestamp": 1781405139,
+      "md5": "4499ba7e6487a547bb29bb6c351d2c94",
+      "sha256": "a7729f3ea545779c22af1c3fee5c82e044c6293ad42fee1541d57b62f4e8a729",
+      "size": 2582466319,
       "version": "3.11",
       "buildtype": "Community",
       "forum": "",
@@ -26,3 +26,8 @@
     }
   ]
 }
+
+
+
+
+
