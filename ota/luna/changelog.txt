@@ -4,20 +4,17 @@ Lunaris AOSP v3.11 | Unofficial | Signed Build | spaced
 - Final Release Build for spaced.
 - Added OTA updates for future builds.
 
-06-14-26
-# CHANGELOG
-
-## Device Tree
+06-14-26 - CHANGELOG
+Device Tree
 - Tuned boot-time and runtime I/O queue depth for better storage performance
 - Removed the legacy threaded OpenGL RenderEngine backend
 - Cleaned up obsolete HWUI tuning properties
 - Fixed power hint max frequency using real OPP values
 - Imported phase offsets from Motorola
 
-## Kernel
+Kernel
 - Change kernel to Apex Kernel+
 - Fixed a zsmalloc build issue on some configs
 - Reduced log spam from unsupported GPU clock errors
-- Added KernelSU support
 - Switched zram compression to ZSTD
 - General memory management improvements and optimizations for smoother performance
